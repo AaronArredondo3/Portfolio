@@ -1,13 +1,26 @@
 body {
     height: 800px;
-    background-color: lightblue;
-    background-image: linear-gradient(rgb(132, 132, 221), rgb(164, 22, 164));
+    background-color: rgb(97, 165, 175);
+    background-image: linear-gradient(rgb(198, 206, 203), rgb(23, 22, 31));
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    margin: auto;
+    border-radius: 8px;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar {
     display: grid;
-    row-gap: 25px;
-    grid-template-rows: auto;
+    row-gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #0e0b98;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
 }
-.grid {
-    font-size: 22px;
+.navbar a:hover {
+    background-color: #d40f0f;
 }
