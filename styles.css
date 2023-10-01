@@ -1,26 +1,64 @@
-body {
-    height: 800px;
-    background-color: rgb(97, 165, 175);
-    background-image: linear-gradient(rgb(198, 206, 203), rgb(23, 22, 31));
+.background{
+    min-height: 105vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+.background::before {
+    content: '';
+    background-image: url(../DeveloperPortfolioV1/northern\ lights.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 a {
     color: white;
     text-decoration: none;
     text-align: justify;
     margin: auto;
     border-radius: 8px;
-    font-size: 28px;
+    font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
 }
+
 .navbar {
     display: grid;
-    row-gap: 40px;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: #0e0b98;
-    text-align: center;
-    padding: 8px;
-    text-decoration: none;
+    row-gap: 4px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #040313;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
 }
+
 .navbar a:hover {
     background-color: #d40f0f;
+    position: relative;
+}
+
+h1 { 
+    text-align:left;
+    font-size: 30px;
+    color: white;
+    position: relative;
+}
+h2 { 
+    font-size: 70px;
+    color: white;
+    position: relative;
+}
+
+img {
+    position: relative;
+    align-items: flex-start;
 }
