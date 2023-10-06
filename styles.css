@@ -2,7 +2,7 @@ html, body {
     scroll-behavior: smooth;
     margin: 0; 
     padding: 0;
-}
+} /* styling for full website */
 
 
 .background{
@@ -26,7 +26,8 @@ html, body {
     left: 0;
     bottom: 0;
     right: 0;
-}
+}/* both backgrounds are for styling the image and the home page layout */
+
 
 a {
     color: white;
@@ -36,7 +37,8 @@ a {
     font-size: 25px;
     font-family: cursive;
     position: relative;
-}
+}/* this is styling the four sections in my navbar Home,Bio,Projects,and contact */
+
 
 #navbar {
     display: grid;
@@ -54,7 +56,8 @@ a {
 #navbar a:hover {
     background-color: #d40f0f;
     position: relative;
-}
+}/* the two navbar are for styling my navbar allowing the navbar to become sticky and also allows each section to change color when hovered over it */
+
 
 h1 { 
     text-align:center;
@@ -77,17 +80,19 @@ h2 {
     max-width: 100%;
     margin: auto;
     text-shadow: 4px 4px #cf0909;
-}
+}/*  h1 and h2 are styling my two lines of text in the home page */
+
 
 main {
     background-color: rgba(195, 251, 251, 0.356);
     display: flex;
     
-}
+} /* This is styling my background color in my bio section */
 
 img{
     margin: 4rem;
-}
+}/* This is styling the picture of myself to give it a little more space between my home page and bio section */
+
 
 p {
     color: black;
@@ -98,51 +103,44 @@ p {
     min-height: 675px;
     margin: 4rem;
     
-}
+}/* This is styling for the text in my bio section */
 
-div {
-    background-color: rgba(195, 251, 251, 0.356);
-}
 
-.one {
+/* Styling for Project section */
+#Project {
+    background-color: rgba(128, 204, 204, 0.356);
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
-    display: inline-block;
-    width: 375px;
-    height: 225px;
-    border: 5px solid #000;
-    color: black;
-    list-style-type: none;
-    text-align: center;
+    
 }
 
-.two {font-size: 30px;
-    display: inline-block;
-    width: 375px;
-    height: 225px;
+
+.one, .two, .three {
+    font-size: 30px;
+    width: 295px;
+    height: 255px;
     border: 5px solid #000;
-    color: black;
-    list-style-type: none;
+    color: white;
     text-align: center;
+    margin: 50px;
+    background-color: #111010;
+}
+
+.one{
+    display: flex;
+}
+.two {
+    display: flex;
+    color: black;
+    text-align: center;
+    margin: auto;
 }
 
 .three {
-    font-size: 30px;
     display: inline-block;
-    width: 375px;
-    height: 225px;
-    border: 5px solid #000;
     color: black;
-    list-style-type: none;
     text-align: center;
+    margin: 50px;
 }
 
-.four {
-    font-size: 30px;
-    display: inline-block;
-    width: 375px;
-    height: 225px;
-    border: 5px solid #000;
-    color: black;
-    list-style-type: none;
-    text-align: center;
-}
