@@ -108,39 +108,37 @@ p {
 
 /* Styling for Project section */
 #Project {
-    background-color: rgba(128, 204, 204, 0.356);
+    background-color: rgba(195, 251, 251, 0.356);
     display: flex;
     flex-direction: column;
     font-size: 30px;
     
 }
 
-
+.work{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 4px 4px #ff0217;
+    font-family: cursive;
+    font-style: italic;
+    margin: 3rem;
+}
 .one, .two, .three {
-    font-size: 30px;
-    width: 295px;
+    display: inline-block;
+    font-size: 38px;
+    font-family: cursive;
+    font-style: italic;
+    width: 625px;
     height: 255px;
-    border: 5px solid #000;
+    border: 10px ridge #000;
     color: white;
     text-align: center;
     margin: 50px;
-    background-color: #111010;
+    background-color: #4299b8;
 }
 
-.one{
-    display: flex;
+.progress{
+    border-radius: 40%;
+    margin-left: 100px;
 }
-.two {
-    display: flex;
-    color: black;
-    text-align: center;
-    margin: auto;
-}
-
-.three {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    margin: 50px;
-}
-
