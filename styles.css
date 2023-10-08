@@ -115,6 +115,11 @@ p {
     
 }
 
+.progress{
+    border-radius: 40%;
+    margin-left: 100px;
+}
+
 .work{
     text-align: center;
     font-size: 50px;
@@ -136,9 +141,39 @@ p {
     text-align: center;
     margin: 50px;
     background-color: #4299b8;
+} 
+/* This is styling for the three boxes in my projects section*/
+
+
+/* This is for styling my contact section*/
+#close {
+    background-color: rgb(58, 52, 52);
+    display: flex;
 }
 
-.progress{
-    border-radius: 40%;
-    margin-left: 100px;
+#Contact {
+    display: inline-flex;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(253, 245, 245);
+    border: 8px ridge rgb(241, 82, 82);
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: #4299b8;
+}
+
+.end {
+    color: white;
+    font-size: 15px;
+}
+
+
+/* both social tags are styling for the social media icons*/
+.social {
+    color: white;
+}
+
+.social :hover{
+    color: red;
 }
